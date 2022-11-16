@@ -1,24 +1,3 @@
-terraform {
-  required_providers {
-    hcloud = {
-      source = "hetznercloud/hcloud"
-    }
-    random = {
-      source  = "hashicorp/random"
-      version = "3.0.1"
-    }
-  }
-  required_version = ">= 1.1.0"
-
-  cloud {
-    organization = "Neodata"
-
-    workspaces {
-      name = "gh-actions-platform"
-    }
-  }
-}
-
 /*
 Copyright 2019 The KubeOne Authors.
 
