@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 variable "hcloud_token" {
-  
+
 }
 
 variable "cluster_name" {
