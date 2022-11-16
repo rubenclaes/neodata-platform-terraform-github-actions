@@ -15,7 +15,8 @@ limitations under the License.
 */
 
 variable "hcloud_token" {
-
+  type        = string
+  description = "This is an example input variable using env variables."
 }
 
 variable "cluster_name" {
