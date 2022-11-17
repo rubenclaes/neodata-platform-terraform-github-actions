@@ -14,11 +14,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-variable "hcloud_token" {
-  type        = string
-  description = "This is an example input variable using env variables."
-}
-
 variable "cluster_name" {
   description = "prefix for cloud resources"
   type        = string

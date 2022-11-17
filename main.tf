@@ -15,7 +15,6 @@ limitations under the License.
 */
 
 provider "hcloud" {
-  token = var.hcloud_token
 }
 
 locals {
